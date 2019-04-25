@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 94px;
+    width: 600px;
+    border: 1px solid;
+    border-radius: 60px 60px 0 0;
+    border-color: black black transparent black;
+    padding-top: 5px;
+    
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 600px;
+    min-height: 400px;
+    background-image: url('../img/doshka.jpg');
+    border-radius: 0 0 60px 60px;
+    color: rgb(75, 66, 66);
+    font-family: 'Open Sans';
+
+
+}
+
+.title{
+    text-align: center;
+    /* font-family: 'Open Sans'; */
+    font-size: 30px;
+    /* color: rgb(75, 66, 66); */
+}
+
+.icon{
+    position: absolute;
+    left: 80%;
+    top: 0;
+    transform: translate(50%, 50%);
+    display: inline-flex;
+    justify-content: flex-end;
+}
+.temp{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(50%, 50%);
+    display: block;
+    min-width: 200px;
+
+}
+.description{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(50%, 50%);
+    display: block;
+    min-width: 200px;
+    
+}
+.pressure{
+    position: absolute;
+    left: 33%;
+    bottom: 25%;
+    transform: translate(50%, 50%);
+    display: block;
+    min-width: 200px;
+}
+.humidity{
+    position: absolute;
+    left: 37%;
+    bottom: 15%;
+    transform: translate(50%, 50%);
+    display: block;
+    min-width: 200px;
+}
+.speed{
+    position: absolute;
+    right: 77%;
+    bottom: 25%;
+    transform: translate(50%, 50%);
+    display: block;
+    min-width: 200px;
+}
+.deg{
+    position: absolute;
+    left: -10%;
+    bottom: 15%;
+    transform: translate(50%, 50%);
+    display: block;
+    min-width: 200px;
+}
